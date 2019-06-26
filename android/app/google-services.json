@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070426296835",
+    "firebase_url": "https://dexbyteslogin.firebaseio.com",
+    "project_id": "dexbyteslogin",
+    "storage_bucket": "dexbyteslogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070426296835:android:a11aba8aabea9606",
+        "android_client_info": {
+          "package_name": "com.dexbyteslogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070426296835-egpfnrabq86mulau31fumhrqmm409hi7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dexbyteslogin",
+            "certificate_hash": "3ca410695a53e4a40e43e19e23ad603384af4127"
+          }
+        },
+        {
+          "client_id": "1070426296835-f8u05t5e4idp5fjmu74j2q44jn6mbm4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8lfk7DByjY5Zz7IQIT9NZFcnOnQO0A84"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070426296835-f8u05t5e4idp5fjmu74j2q44jn6mbm4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
