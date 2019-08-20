@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
-    
   },
   "dependencies": {
+    "appcenter": "2.2.0",
+    "appcenter-analytics": "2.2.0",
+    "appcenter-crashes": "2.2.0",
     "native-base": "^2.10.0",
     "react": "16.6.3",
     "react-native": "0.57.8",
