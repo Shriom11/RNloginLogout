@@ -75,6 +75,10 @@
 		C0A642CE53E640E6988ACEC0 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9112236C04946C990D0432E /* Zocial.ttf */; };
 		086106F3F5724E79A4495C4D /* libRNGoogleSignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C63EB72ED476EB35585B4 /* libRNGoogleSignin.a */; };
 		8C990163D2EA4D32BC81AD2E /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A868F24F513F463BAEA56536 /* libRCTFBSDK.a */; };
+		9971F258906B4249A6F8F079 /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC49F22DDC8D43E9BDC3F9FB /* libAppCenterReactNative.a */; };
+		D1B2E7521C3B4A41816B6722 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CE8769F86D94CFD9AAB9BAD /* AppCenter-Config.plist */; };
+		AF4BC0BFF9DF46BBA06A799D /* libAppCenterReactNativeAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EFC741F33B41DF8E0DAE1D /* libAppCenterReactNativeAnalytics.a */; };
+		99259EFBA04C49AFA9E8AF68 /* libAppCenterReactNativeCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4673D3F6D284428B86ECAC5 /* libAppCenterReactNativeCrashes.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -422,6 +426,13 @@
 		DD8C63EB72ED476EB35585B4 /* libRNGoogleSignin.a */ = {isa = PBXFileReference; name = "libRNGoogleSignin.a"; path = "libRNGoogleSignin.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		FA0C52C3EA27471796B5E565 /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; name = "RCTFBSDK.xcodeproj"; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		A868F24F513F463BAEA56536 /* libRCTFBSDK.a */ = {isa = PBXFileReference; name = "libRCTFBSDK.a"; path = "libRCTFBSDK.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		A765B1E4F3EC4A6A84A9ADBF /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; name = "AppCenterReactNative.xcodeproj"; path = "../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		EC49F22DDC8D43E9BDC3F9FB /* libAppCenterReactNative.a */ = {isa = PBXFileReference; name = "libAppCenterReactNative.a"; path = "libAppCenterReactNative.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		7CE8769F86D94CFD9AAB9BAD /* AppCenter-Config.plist */ = {isa = PBXFileReference; name = "AppCenter-Config.plist"; path = "DexbytesLogin/AppCenter-Config.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		EB4B42C7672D4E83AA6D545B /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; name = "AppCenterReactNativeAnalytics.xcodeproj"; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		05EFC741F33B41DF8E0DAE1D /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; name = "libAppCenterReactNativeAnalytics.a"; path = "libAppCenterReactNativeAnalytics.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		ED385A4DFC5040818BB17D8B /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; name = "AppCenterReactNativeCrashes.xcodeproj"; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		F4673D3F6D284428B86ECAC5 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; name = "libAppCenterReactNativeCrashes.a"; path = "libAppCenterReactNativeCrashes.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -453,6 +464,9 @@
 				9932BFE3A2344182BE86411B /* libRNVectorIcons.a in Frameworks */,
 				086106F3F5724E79A4495C4D /* libRNGoogleSignin.a in Frameworks */,
 				8C990163D2EA4D32BC81AD2E /* libRCTFBSDK.a in Frameworks */,
+				9971F258906B4249A6F8F079 /* libAppCenterReactNative.a in Frameworks */,
+				AF4BC0BFF9DF46BBA06A799D /* libAppCenterReactNativeAnalytics.a in Frameworks */,
+				99259EFBA04C49AFA9E8AF68 /* libAppCenterReactNativeCrashes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +658,9 @@
 				ABD0C88EC4584DFD8BD3309D /* RNVectorIcons.xcodeproj */,
 				C9F0A0BD9A9B4E49B60031B6 /* RNGoogleSignin.xcodeproj */,
 				FA0C52C3EA27471796B5E565 /* RCTFBSDK.xcodeproj */,
+				A765B1E4F3EC4A6A84A9ADBF /* AppCenterReactNative.xcodeproj */,
+				EB4B42C7672D4E83AA6D545B /* AppCenterReactNativeAnalytics.xcodeproj */,
+				ED385A4DFC5040818BB17D8B /* AppCenterReactNativeCrashes.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -666,6 +683,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				40AEA27FF60941B2B38D942C /* Resources */,
+				7CE8769F86D94CFD9AAB9BAD /* AppCenter-Config.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -1212,6 +1230,7 @@
 				E08DC4EFC3574ECA8B9B7CF3 /* rubicon-icon-font.ttf in Resources */,
 				8588C44BF850419CA0145F49 /* SimpleLineIcons.ttf in Resources */,
 				C0A642CE53E640E6988ACEC0 /* Zocial.ttf in Resources */,
+				D1B2E7521C3B4A41816B6722 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1351,6 +1370,9 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1358,6 +1380,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
+					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
 				);
 			};
 			name = Debug;
@@ -1384,6 +1409,9 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1391,6 +1419,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
+					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
 				);
 			};
 			name = Release;
@@ -1417,6 +1448,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
+					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
 				);
 			};
 			name = Debug;
@@ -1442,6 +1476,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
+					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
 				);
 			};
 			name = Release;
@@ -1476,6 +1513,9 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1483,6 +1523,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
+					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
 				);
 			};
 			name = Debug;
@@ -1517,6 +1560,9 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1524,6 +1570,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
+					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
 				);
 			};
 			name = Release;
@@ -1557,6 +1606,9 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1564,6 +1616,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
+					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
 				);
 			};
 			name = Debug;
@@ -1597,6 +1652,9 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1604,6 +1662,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-google-signin\ios\RNGoogleSignin",
 					"$(SRCROOT)\..\node_modules\react-native-fbsdk\ios\RCTFBSDK/**",
+					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
+					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
+					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
 				);
 			};
 			name = Release;

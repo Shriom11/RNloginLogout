@@ -145,6 +145,9 @@ android {
 }
 
 dependencies {
+    compile project(':appcenter-crashes')
+    compile project(':appcenter-analytics')
+    compile project(':appcenter')
     implementation 'com.facebook.android:facebook-android-sdk:4.34.0'
     implementation project(':react-native-fbsdk')
     implementation project(':react-native-google-signin')
